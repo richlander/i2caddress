@@ -1,4 +1,4 @@
 public interface II2cAddress<T> where T: II2cAddress<T>
 {
-    public static int DefaultI2cAddress;
+    static abstract int DefaultI2cAddress { get; }
 }

@@ -1,4 +1,7 @@
 public class Device : II2cAddress<Device>
 {
-    public static int DefaultI2cAddress = 0x70;
+    public static int DefaultI2cAddress
+    {
+        get => 0x70;
+    }
 }
