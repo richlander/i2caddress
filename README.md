@@ -1,6 +1,6 @@
 # i2caddress -- `static abstract` interface member
 
-The `static virtual` interface feature enables us to model [specifying i2c addresses](https://github.com/dotnet/iot/blob/fa1960cd38a1548abb6ba99b2a0842dde9ec1079/src/devices/Display/samples/Program.BiColorBargraph.cs#L10) (as static methods) and to choose to specify a different value in more derived implementations (like we can do today).
+The `static abstract` interface feature enables us to model [specifying i2c addresses](https://github.com/dotnet/iot/blob/fa1960cd38a1548abb6ba99b2a0842dde9ec1079/src/devices/Display/samples/Program.BiColorBargraph.cs#L10) (as static methods) and to choose to specify a different value in more derived implementations (like we can do today).
 
 The relevant code:
 
