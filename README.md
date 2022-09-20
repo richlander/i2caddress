@@ -15,6 +15,10 @@ public class Device : II2cAddress
     public static int DefaultI2cAddress => 0x70;
 }
 
+public class SpecializedDevice : Device
+{
+}
+
 public class MoreSpecializedDevice : Device, II2cAddress
 {
     public static new int DefaultI2cAddress => 0x74;
@@ -28,6 +32,7 @@ This is what the app looks like:
 Hello, World!
 I have two devices, with two specific addresses:
 - Device: 070
+- SpecializedDevice: 070
 - MoreSpecializedDevice: 074
 ```
 
