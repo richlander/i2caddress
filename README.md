@@ -30,7 +30,7 @@ This is what the app looks like:
 ```bash
 % dotnet run
 Hello, World!
-I have two devices, with two specific addresses:
+I have three devices, with two specific addresses:
 - Device: 070
 - SpecializedDevice: 070
 - MoreSpecializedDevice: 074
