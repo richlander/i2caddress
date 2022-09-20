@@ -1,4 +1,4 @@
-# i2caddress -- `static virtual` interface member
+# i2caddress -- `static abstract` interface member
 
 The `static virtual` interface feature enables us to model specifying i2c addresses (as static methods) and to choose to specify a different value in more derived implementations (like we can do today).
 
