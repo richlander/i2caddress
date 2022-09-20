@@ -25,7 +25,7 @@ public class MoreSpecializedDevice : Device, II2cAddress
 }
 ```
 
-This is what the app looks like:
+This is what the [app](net70/Program.cs) looks like:
 
 ```bash
 % dotnet run
